@@ -20,6 +20,10 @@
 		53C49CC12B045BB900FB9CE3 /* PosterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C49CC02B045BB900FB9CE3 /* PosterView.swift */; };
 		53C49CC32B046F5100FB9CE3 /* HomeView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C49CC22B046F5100FB9CE3 /* HomeView.swift */; };
 		53C49CC52B0471E100FB9CE3 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C49CC42B0471E100FB9CE3 /* StartView.swift */; };
+		53C49CC72B05A82900FB9CE3 /* SearchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C49CC62B05A82900FB9CE3 /* SearchView.swift */; };
+		53C49CC92B05B45300FB9CE3 /* NavigationLazyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C49CC82B05B45300FB9CE3 /* NavigationLazyView.swift */; };
+		53C49CCB2B06F38000FB9CE3 /* CharttView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C49CCA2B06F38000FB9CE3 /* CharttView.swift */; };
+		53C49CCD2B0701B000FB9CE3 /* GridView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 53C49CCC2B0701B000FB9CE3 /* GridView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -37,6 +41,10 @@
 		53C49CC02B045BB900FB9CE3 /* PosterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PosterView.swift; sourceTree = "<group>"; };
 		53C49CC22B046F5100FB9CE3 /* HomeView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeView.swift; sourceTree = "<group>"; };
 		53C49CC42B0471E100FB9CE3 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
+		53C49CC62B05A82900FB9CE3 /* SearchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SearchView.swift; sourceTree = "<group>"; };
+		53C49CC82B05B45300FB9CE3 /* NavigationLazyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NavigationLazyView.swift; sourceTree = "<group>"; };
+		53C49CCA2B06F38000FB9CE3 /* CharttView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CharttView.swift; sourceTree = "<group>"; };
+		53C49CCC2B0701B000FB9CE3 /* GridView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GridView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -78,8 +86,12 @@
 				53C49CB82B0307A800FB9CE3 /* TamagochiView.swift */,
 				53C49CBA2B0337A600FB9CE3 /* MovieView.swift */,
 				53C49CBC2B044C3B00FB9CE3 /* TransitionView.swift */,
+				53C49CC82B05B45300FB9CE3 /* NavigationLazyView.swift */,
 				53C49CBE2B04501A00FB9CE3 /* CategoryView.swift */,
 				53C49CC02B045BB900FB9CE3 /* PosterView.swift */,
+				53C49CC62B05A82900FB9CE3 /* SearchView.swift */,
+				53C49CCA2B06F38000FB9CE3 /* CharttView.swift */,
+				53C49CCC2B0701B000FB9CE3 /* GridView.swift */,
 				53C49CC22B046F5100FB9CE3 /* HomeView.swift */,
 				53C49CC42B0471E100FB9CE3 /* StartView.swift */,
 			);
@@ -164,16 +176,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				53C49CCB2B06F38000FB9CE3 /* CharttView.swift in Sources */,
 				53C49C972B01A8C600FB9CE3 /* ContentView.swift in Sources */,
 				53C49CC52B0471E100FB9CE3 /* StartView.swift in Sources */,
 				53C49CBB2B0337A600FB9CE3 /* MovieView.swift in Sources */,
+				53C49CC92B05B45300FB9CE3 /* NavigationLazyView.swift in Sources */,
 				53C49CB92B0307A800FB9CE3 /* TamagochiView.swift in Sources */,
+				53C49CC72B05A82900FB9CE3 /* SearchView.swift in Sources */,
 				53C49CC32B046F5100FB9CE3 /* HomeView.swift in Sources */,
 				53C49CBD2B044C3B00FB9CE3 /* TransitionView.swift in Sources */,
 				53C49CA32B01B96300FB9CE3 /* MenuView.swift in Sources */,
 				53C49CA52B01C89200FB9CE3 /* RenderView.swift in Sources */,
 				53C49CBF2B04501A00FB9CE3 /* CategoryView.swift in Sources */,
 				53C49C952B01A8C600FB9CE3 /* SwiftUIStudyApp.swift in Sources */,
+				53C49CCD2B0701B000FB9CE3 /* GridView.swift in Sources */,
 				53C49CC12B045BB900FB9CE3 /* PosterView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

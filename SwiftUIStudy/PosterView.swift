@@ -23,6 +23,7 @@ struct PosterView: View {
                     AsyncImageView()
                         .frame(width: 100, height: 100)
                         .onTapGesture {
+                            print("tap")
                             isPresented.toggle()
                         }
                 }

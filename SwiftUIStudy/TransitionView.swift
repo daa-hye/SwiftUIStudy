@@ -12,6 +12,12 @@ struct TransitionView: View {
     @State private var isFull = false
     @State private var isSheet = false
 
+    init(isFull: Bool = false, isSheet: Bool = false) {
+        self.isFull = isFull
+        self.isSheet = isSheet
+        print("transition init")
+    }
+
     var body: some View {
         NavigationView {
             HStack(spacing: 20) {
@@ -22,7 +28,10 @@ struct TransitionView: View {
                     isSheet = true
                 }
                 NavigationLink("Push") {
-                    RenderView()
+                    NavigationLazyView(RenderView())
+                } //-> renderview의 init이 함께 일어남
+                NavigationLink("Push") {
+                    NavigationLazyView(PosterView())
                 }
             }
             .sheet(isPresented: $isSheet, content: {
